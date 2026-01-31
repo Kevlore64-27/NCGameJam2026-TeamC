@@ -15,6 +15,9 @@ public class PickupItem : MonoBehaviour
     private float skin = 0.02f; // keeps a tiny gap from surface
     private float maxMovePerStep = 1.0f;
 
+    //[SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip clip;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
@@ -29,6 +32,7 @@ public class PickupItem : MonoBehaviour
         SetNewLayer(gameObject, grabLayer);
         rb.useGravity = false;
         //rb.isKinematic = true; // no physics while held
+        AudioManager.Instance.PlaySfx(clip);
     }
 
     public void Drop()

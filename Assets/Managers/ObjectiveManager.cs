@@ -15,6 +15,8 @@ public class ObjectiveManager : MonoBehaviour
     public event Action<int, string> OnObjectiveChanged;
     public event Action OnAllObjectivesComplete;
 
+    public GameObject finalDoor;
+
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -46,6 +48,7 @@ public class ObjectiveManager : MonoBehaviour
         {
             Debug.Log("All Objectives Complete!");
             OnAllObjectivesComplete?.Invoke();
+            finalDoor.gameObject.SetActive(false);
         }
         else
         {

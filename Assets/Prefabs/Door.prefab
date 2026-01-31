@@ -171,10 +171,10 @@ MonoBehaviour:
   doorPivot: {fileID: 5679940298083739809}
   openAngle: -90
   openSpeed: 140
-  closeSpeed: 300
+  closeSpeed: 240
   unlockSfx: {fileID: 8300000, guid: dfc46ac466f2976409f9063e9c8045be, type: 3}
-  openSfx: {fileID: 8300000, guid: 19f93913f2900904ca1749e862f5421f, type: 3}
-  closeSfx: {fileID: 8300000, guid: 1525ae5941f691643930e6a658160708, type: 3}
+  openSfx: {fileID: 8300000, guid: 952f6b4bb34daf944bc16d9d56dbca75, type: 3}
+  closeSfx: {fileID: 8300000, guid: f1319e8de8ea3044ea92982194eb9e95, type: 3}
   rattleSfx: {fileID: 8300000, guid: ccd2958f81c50d640bb44b01ffc8d9f8, type: 3}
 --- !u!1 &6548987390734595720
 GameObject:
