@@ -56,8 +56,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 0.893089, z: 1}
-  m_Center: {x: 0, y: 0.4346127, z: 0}
+  m_Size: {x: 0.69410247, y: 1.3245561, z: 0.64955056}
+  m_Center: {x: 0.0053164787, y: 0.6503464, z: 0.007401511}
 --- !u!54 &4349655406881841369
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -184,6 +184,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0c235931306145d4c8154857d2863cb0, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: abb44b9ea196cc0458fd8566939532ae, type: 2}
     - target: {fileID: 919132149155446097, guid: 0c235931306145d4c8154857d2863cb0, type: 3}
       propertyPath: m_Name
       value: WineBottle (1)

@@ -246,6 +246,8 @@ MonoBehaviour:
   characterController: {fileID: 1525509473969251321}
   cam: {fileID: 7830914372676357766}
   playerInputHandler: {fileID: 3935084842780377505}
+  hoverText: {fileID: 0}
+  playerPickup: {fileID: 0}
   walkSpeed: 4
   sprintMultiplier: 2
   mouseSensitivity: 0.1
@@ -263,6 +265,10 @@ MonoBehaviour:
   walkStepDelay: 0.6
   sprintStepDelay: 0.3
   crouchStepDelay: 0.9
+  hoverDistance: 3
+  hoverLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!114 &2698749177614316159
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -328,7 +334,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7208075491426811115}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1

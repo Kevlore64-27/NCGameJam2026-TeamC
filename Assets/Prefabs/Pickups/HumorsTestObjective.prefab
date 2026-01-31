@@ -35,7 +35,8 @@ Transform:
   m_LocalPosition: {x: 3.01, y: 0.20832002, z: -3.21832}
   m_LocalScale: {x: 0.41664, y: 0.41664, z: 0.41664}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 3215340225418916135}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &278680758822025054
@@ -53,7 +54,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2638040913602075088}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -110,8 +111,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.49585512, y: 0.8160882, z: 0.48926967}
+  m_Center: {x: 0.00020709768, y: 0.40308008, z: 0.11987537}
 --- !u!54 &4678423746851378438
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -178,3 +179,81 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   <DisplayName>k__BackingField: Bottle of Humors\n[E] Pick Up
+--- !u!1001 &3104554211168425676
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8777761132311399343}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 319252583eded8e4e84f03b82cffe8b9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 319252583eded8e4e84f03b82cffe8b9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 319252583eded8e4e84f03b82cffe8b9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 319252583eded8e4e84f03b82cffe8b9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 319252583eded8e4e84f03b82cffe8b9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 319252583eded8e4e84f03b82cffe8b9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.1151189
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 319252583eded8e4e84f03b82cffe8b9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 319252583eded8e4e84f03b82cffe8b9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.70710677
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 319252583eded8e4e84f03b82cffe8b9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 319252583eded8e4e84f03b82cffe8b9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 319252583eded8e4e84f03b82cffe8b9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 319252583eded8e4e84f03b82cffe8b9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 319252583eded8e4e84f03b82cffe8b9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 319252583eded8e4e84f03b82cffe8b9, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: abb44b9ea196cc0458fd8566939532ae, type: 2}
+    - target: {fileID: 919132149155446097, guid: 319252583eded8e4e84f03b82cffe8b9, type: 3}
+      propertyPath: m_Name
+      value: HumorsBottle
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 319252583eded8e4e84f03b82cffe8b9, type: 3}
+--- !u!4 &3215340225418916135 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 319252583eded8e4e84f03b82cffe8b9, type: 3}
+  m_PrefabInstance: {fileID: 3104554211168425676}
+  m_PrefabAsset: {fileID: 0}
