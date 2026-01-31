@@ -23,7 +23,7 @@ public class AudioManager : MonoBehaviour
         AudioSource audioSource = gameObject.AddComponent<AudioSource>();
         audioSource.clip = audioClip;
         audioSource.volume = volume;
-        audioSource.pitch = Random.Range(0.95f, 1.05f);
+        audioSource.pitch = Random.Range(0.8f, 1.10f);
         audioSource.Play();
 
         yield return new WaitForSeconds(audioSource.clip.length * 2);
