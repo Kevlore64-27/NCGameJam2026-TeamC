@@ -5,6 +5,7 @@ public class PlayerGrabSystem : MonoBehaviour
     [SerializeField] private Camera playerCam;
     [SerializeField] private Transform grabPoint;
     [SerializeField] private float grabDistance = 3f;
+    [SerializeField] private FirstPersonController controller;
     private PickupItem heldItem;
 
     private void Update()
@@ -18,7 +19,7 @@ public class PlayerGrabSystem : MonoBehaviour
                     if (hit.collider.TryGetComponent(out PickupItem pickup))
                     {
                         heldItem = pickup;
-                        heldItem.Grab(grabPoint);
+                        heldItem.Grab(grabPoint, controller);
                     }
                 }
             }

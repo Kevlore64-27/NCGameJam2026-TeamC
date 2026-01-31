@@ -38,6 +38,8 @@ public class FirstPersonController : MonoBehaviour
     [SerializeField] private float sprintStepDelay = 0.3f;
     [SerializeField] private float crouchStepDelay = 0.9f;
 
+    public Vector3 PlayerVelocity { get; private set; }
+
     // private variables
     private bool isCrouching = false;
     private bool isSprinting = false;
@@ -52,6 +54,8 @@ public class FirstPersonController : MonoBehaviour
     private float targetHeight;
 
     private Vector3 initCamPos;
+
+    private Vector3 lastPos;
 
     private float mouseXRotation => playerInputHandler.RotationInput.x * mouseSensitivity;
     private float mouseYRotation => playerInputHandler.RotationInput.y * mouseSensitivity;
@@ -74,6 +78,9 @@ public class FirstPersonController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        PlayerVelocity = (transform.position - lastPos) / Time.fixedDeltaTime;
+        lastPos = transform.position;
+
         HandleMovement();
     }
 
