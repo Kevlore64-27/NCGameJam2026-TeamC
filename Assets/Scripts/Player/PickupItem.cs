@@ -1,8 +1,12 @@
+using System;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
 public class PickupItem : MonoBehaviour
 {
+    public static event Action<PickupItem> OnItemGrabbed;
+    public static event Action<PickupItem> OnItemDropped;
+
     public bool IsHeld => objectGrabPointTransform != null;
 
     private Rigidbody rb;
@@ -15,7 +19,6 @@ public class PickupItem : MonoBehaviour
     private float skin = 0.02f; // keeps a tiny gap from surface
     private float maxMovePerStep = 1.0f;
 
-    //[SerializeField] private AudioSource audioSource;
     [SerializeField] private AudioClip clip;
 
     private void Awake()
@@ -28,6 +31,7 @@ public class PickupItem : MonoBehaviour
     public void Grab(Transform grabPointTransform, FirstPersonController player)
     {
         objectGrabPointTransform = grabPointTransform;
+        OnItemGrabbed?.Invoke(this);
         controller = player;
         SetNewLayer(gameObject, grabLayer);
         rb.useGravity = false;
@@ -38,6 +42,7 @@ public class PickupItem : MonoBehaviour
     public void Drop()
     {
         objectGrabPointTransform = null;
+        OnItemDropped?.Invoke(this);
         controller = null;
         SetNewLayer(gameObject, defaultLayer);
         rb.useGravity = true;

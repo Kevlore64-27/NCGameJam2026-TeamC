@@ -25,7 +25,7 @@ public class DoorKeyUnlock : MonoBehaviour
         }
 
         door.Unlock();
-
+        pickup.Drop();
         Destroy(other.gameObject);
     }
 }
