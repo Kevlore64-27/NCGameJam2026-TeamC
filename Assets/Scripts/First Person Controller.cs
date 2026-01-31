@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class FirstPersonController : MonoBehaviour
@@ -29,6 +30,14 @@ public class FirstPersonController : MonoBehaviour
     [SerializeField] private float pickUpDistance = 3.0f;
     [SerializeField] private LayerMask pickUpLayer;
 
+    [Header("Audio Clips")]
+    [SerializeField] private AudioClip footStepSfx;
+
+    [Header("Audio Parameters")]
+    [SerializeField] private float walkStepDelay = 0.6f;
+    [SerializeField] private float sprintStepDelay = 0.3f;
+    [SerializeField] private float crouchStepDelay = 0.9f;
+
     // private variables
     private bool isCrouching = false;
     private bool isSprinting = false;
@@ -54,6 +63,7 @@ public class FirstPersonController : MonoBehaviour
         standingHeight = currentHeight = characterController.height;
         targetHeight = standingHeight;
         initCamPos = cam.transform.localPosition;
+        StartCoroutine(PlayFootSteps());
     }
 
     private void Update()
@@ -179,5 +189,29 @@ public class FirstPersonController : MonoBehaviour
 
         cam.transform.localPosition = newCamPos;
         characterController.height = currentHeight;
+    }
+
+    private IEnumerator PlayFootSteps()
+    {
+        while (true)
+        {
+            if (playerInputHandler.MovementInput.magnitude > 0.1f)
+            {
+                AudioManager.Instance.PlaySfx(footStepSfx);
+            }
+
+            if (isSprinting)
+            {
+                yield return new WaitForSeconds(sprintStepDelay);
+            }
+            else if (isCrouching)
+            {
+                yield return new WaitForSeconds(crouchStepDelay);
+            }
+            else
+            {
+                yield return new WaitForSeconds(walkStepDelay);
+            }
+        }
     }
 }
