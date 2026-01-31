@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5289200211567327775}
   - component: {fileID: 4644544923364232403}
   - component: {fileID: 969086759630242869}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: KeyUnlockZone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -132,7 +132,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5679940298083739809}
   - component: {fileID: 799861071257667738}
-  m_Layer: 0
+  - component: {fileID: 3967497425294166218}
+  m_Layer: 8
   m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -176,6 +177,19 @@ MonoBehaviour:
   openSfx: {fileID: 8300000, guid: 952f6b4bb34daf944bc16d9d56dbca75, type: 3}
   closeSfx: {fileID: 8300000, guid: f1319e8de8ea3044ea92982194eb9e95, type: 3}
   rattleSfx: {fileID: 8300000, guid: ccd2958f81c50d640bb44b01ffc8d9f8, type: 3}
+--- !u!114 &3967497425294166218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2942256734752457168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7533b5507a5a1b24dbdebe3c0b19e62c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <DisplayName>k__BackingField: Door\n[E] Interact
 --- !u!1 &6548987390734595720
 GameObject:
   m_ObjectHideFlags: 0
@@ -188,7 +202,7 @@ GameObject:
   - component: {fileID: 2535270767716249231}
   - component: {fileID: 4716034307935615967}
   - component: {fileID: 3657085753331423260}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DoorObject
   m_TagString: Door
   m_Icon: {fileID: 0}

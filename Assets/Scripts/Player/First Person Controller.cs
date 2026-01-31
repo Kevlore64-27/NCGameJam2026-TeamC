@@ -1,4 +1,5 @@
 using System.Collections;
+using TMPro;
 using UnityEngine;
 
 public class FirstPersonController : MonoBehaviour
@@ -8,6 +9,8 @@ public class FirstPersonController : MonoBehaviour
     [SerializeField] private CharacterController characterController;
     [SerializeField] private Camera cam;
     [SerializeField] private PlayerInputHandler playerInputHandler;
+    [SerializeField] private TMP_Text hoverText;
+    [SerializeField] private PlayerGrabSystem playerPickup;
 
     [Header("Movement Parameters")]
     [SerializeField] private float walkSpeed = 3.0f;
@@ -38,6 +41,10 @@ public class FirstPersonController : MonoBehaviour
     [SerializeField] private float sprintStepDelay = 0.3f;
     [SerializeField] private float crouchStepDelay = 0.9f;
 
+    [Header("Hover Parameters")]
+    [SerializeField] private float hoverDistance = 3.0f;
+    [SerializeField] private LayerMask hoverLayer;
+
     public Vector3 PlayerVelocity { get; private set; }
 
     // private variables
@@ -56,9 +63,30 @@ public class FirstPersonController : MonoBehaviour
     private Vector3 initCamPos;
 
     private Vector3 lastPos;
+    private bool isHolding;
 
     private float mouseXRotation => playerInputHandler.RotationInput.x * mouseSensitivity;
     private float mouseYRotation => playerInputHandler.RotationInput.y * mouseSensitivity;
+
+    private void Awake()
+    {
+        if (hoverText != null)
+        {
+            hoverText.text = "";
+        }
+    }
+
+    private void OnEnable()
+    {
+        PickupItem.OnItemGrabbed += HandleItemGrabbed;
+        PickupItem.OnItemDropped += HandleItemDropped;
+    }
+
+    private void OnDisable()
+    {
+        PickupItem.OnItemGrabbed -= HandleItemGrabbed;
+        PickupItem.OnItemDropped -= HandleItemDropped;
+    }
 
     private void Start()
     {
@@ -72,6 +100,7 @@ public class FirstPersonController : MonoBehaviour
 
     private void Update()
     {
+        UpdateHoverText();
         HandleInteract();
         HandleCrouch();
     }
@@ -87,6 +116,52 @@ public class FirstPersonController : MonoBehaviour
     private void LateUpdate()
     {
         HandleRotation();
+    }
+
+    private void HandleItemGrabbed(PickupItem item)
+    {
+        isHolding = true;
+        if (hoverText != null)
+        {
+            hoverText.text = "";
+        }
+    }
+
+    private void HandleItemDropped(PickupItem item)
+    {
+        isHolding = false;
+    }
+
+    private void UpdateHoverText()
+    {
+        if (cam == null || hoverText == null) return;
+
+        if (isHolding)
+        {
+            hoverText.text = "";
+            return;
+        }
+
+        Ray ray = new Ray(cam.transform.position, cam.transform.forward);
+
+        if (Physics.Raycast(ray, out RaycastHit hit, hoverDistance, hoverLayer))
+        {
+            Objectiveitem objItem = hit.collider.GetComponentInParent<Objectiveitem>();
+            if (objItem != null && objItem.IsCompleted)
+            {
+                hoverText.text = "";
+                return;
+            }
+
+            HoverName hoverName = hit.collider.GetComponentInParent<HoverName>();
+            if (hoverName != null)
+            {
+                hoverText.text = hoverName.DisplayName;
+                return;
+            }
+        }
+
+        hoverText.text = "";
     }
 
     private Vector3 CalculateWorldDirection()

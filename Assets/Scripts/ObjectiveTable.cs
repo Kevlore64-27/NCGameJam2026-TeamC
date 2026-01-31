@@ -21,6 +21,11 @@ public class ObjectiveTable : MonoBehaviour
         var accepted = ObjectiveManager.Instance.CompleteObjective(item);
         if (!accepted) return;
 
+        if (pickup != null && pickup.IsHeld)
+        {
+            pickup.Drop();
+        }
+
         var snap = GetSnapPoint(indexBefore);
 
         if (snap != null)
