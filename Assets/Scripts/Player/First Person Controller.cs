@@ -161,7 +161,19 @@ public class FirstPersonController : MonoBehaviour
         if (playerInputHandler.InteractTriggered)
         {
             playerInputHandler.InteractTriggered = false;
-            // put interact shit here mitch
+
+            var ray = new Ray(cam.transform.position, cam.transform.forward);
+            if (Physics.Raycast(ray, out RaycastHit hit, 3.0f))
+            {
+                if (hit.collider.CompareTag("Door"))
+                {
+                    var door = hit.collider.GetComponentInParent<Door>();
+                    if (door != null)
+                    {
+                        door.Interact();
+                    }
+                }
+            }
         }
     }
 

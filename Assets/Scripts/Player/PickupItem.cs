@@ -3,6 +3,8 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody))]
 public class PickupItem : MonoBehaviour
 {
+    public bool IsHeld => objectGrabPointTransform != null;
+
     private Rigidbody rb;
     private FirstPersonController controller;
     private Transform objectGrabPointTransform;

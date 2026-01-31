@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\aarmbrust2\\Desktop\\repo\\NCGameJam2026-TeamC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3553CCAA-9D90-E023-FE1B-88904AE7E11B}|Assembly-CSharp.csproj|C:\\Users\\aarmbrust2\\Desktop\\repo\\NCGameJam2026-TeamC\\assets\\scripts\\pickupitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3553CCAA-9D90-E023-FE1B-88904AE7E11B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pickupitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3553CCAA-9D90-E023-FE1B-88904AE7E11B}|Assembly-CSharp.csproj|c:\\users\\aarmbrust2\\desktop\\repo\\ncgamejam2026-teamc\\assets\\scripts\\door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3553CCAA-9D90-E023-FE1B-88904AE7E11B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3553CCAA-9D90-E023-FE1B-88904AE7E11B}|Assembly-CSharp.csproj|C:\\Users\\aarmbrust2\\Desktop\\repo\\NCGameJam2026-TeamC\\assets\\scripts\\playergrabsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3553CCAA-9D90-E023-FE1B-88904AE7E11B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playergrabsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3553CCAA-9D90-E023-FE1B-88904AE7E11B}|Assembly-CSharp.csproj|c:\\users\\aarmbrust2\\desktop\\repo\\ncgamejam2026-teamc\\assets\\scripts\\doorkeyunlock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3553CCAA-9D90-E023-FE1B-88904AE7E11B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\doorkeyunlock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3553CCAA-9D90-E023-FE1B-88904AE7E11B}|Assembly-CSharp.csproj|C:\\Users\\aarmbrust2\\Desktop\\repo\\NCGameJam2026-TeamC\\assets\\scripts\\first person controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3553CCAA-9D90-E023-FE1B-88904AE7E11B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\first person controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3553CCAA-9D90-E023-FE1B-88904AE7E11B}|Assembly-CSharp.csproj|c:\\users\\aarmbrust2\\desktop\\repo\\ncgamejam2026-teamc\\assets\\scripts\\player\\first person controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3553CCAA-9D90-E023-FE1B-88904AE7E11B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\first person controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3553CCAA-9D90-E023-FE1B-88904AE7E11B}|Assembly-CSharp.csproj|c:\\users\\aarmbrust2\\desktop\\repo\\ncgamejam2026-teamc\\assets\\resources\\1_quest-mortarpestle.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{3553CCAA-9D90-E023-FE1B-88904AE7E11B}|Assembly-CSharp.csproj|C:\\Users\\aarmbrust2\\Desktop\\repo\\NCGameJam2026-TeamC\\assets\\resources\\1_quest-mortarpestle.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{3553CCAA-9D90-E023-FE1B-88904AE7E11B}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\1_quest-mortarpestle.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3553CCAA-9D90-E023-FE1B-88904AE7E11B}|Assembly-CSharp.csproj|c:\\users\\aarmbrust2\\desktop\\repo\\ncgamejam2026-teamc\\assets\\scripts\\player\\pickupitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3553CCAA-9D90-E023-FE1B-88904AE7E11B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\pickupitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aarmbrust2\\Desktop\\repo\\NCGameJam2026-TeamC\\Assets\\Scripts\\PickupItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PickupItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3553CCAA-9D90-E023-FE1B-88904AE7E11B}|Assembly-CSharp.csproj|C:\\Users\\aarmbrust2\\Desktop\\repo\\NCGameJam2026-TeamC\\assets\\resources\\2_quest-icewine.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -29,6 +37,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{3553CCAA-9D90-E023-FE1B-88904AE7E11B}|Assembly-CSharp.csproj|C:\\Users\\aarmbrust2\\Desktop\\repo\\NCGameJam2026-TeamC\\assets\\scripts\\itemspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3553CCAA-9D90-E023-FE1B-88904AE7E11B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\itemspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aarmbrust2\\Desktop\\repo\\NCGameJam2026-TeamC\\Assets\\Scripts\\First Person Controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\First Person Controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aarmbrust2\\Desktop\\repo\\NCGameJam2026-TeamC\\Assets\\Scripts\\PlayerGrabSystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerGrabSystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,8 +54,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "First Person Controller.cs",
+              "DocumentMoniker": "C:\\Users\\aarmbrust2\\Desktop\\repo\\NCGameJam2026-TeamC\\Assets\\Scripts\\Player\\First Person Controller.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\First Person Controller.cs",
+              "ToolTip": "C:\\Users\\aarmbrust2\\Desktop\\repo\\NCGameJam2026-TeamC\\Assets\\Scripts\\Player\\First Person Controller.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\First Person Controller.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAAI4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T16:15:56.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PickupItem.cs",
+              "DocumentMoniker": "C:\\Users\\aarmbrust2\\Desktop\\repo\\NCGameJam2026-TeamC\\Assets\\Scripts\\Player\\PickupItem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PickupItem.cs",
+              "ToolTip": "C:\\Users\\aarmbrust2\\Desktop\\repo\\NCGameJam2026-TeamC\\Assets\\Scripts\\Player\\PickupItem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PickupItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T16:15:15.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DoorKeyUnlock.cs",
+              "DocumentMoniker": "C:\\Users\\aarmbrust2\\Desktop\\repo\\NCGameJam2026-TeamC\\Assets\\Scripts\\DoorKeyUnlock.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DoorKeyUnlock.cs",
+              "ToolTip": "C:\\Users\\aarmbrust2\\Desktop\\repo\\NCGameJam2026-TeamC\\Assets\\Scripts\\DoorKeyUnlock.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DoorKeyUnlock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T16:12:37.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Door.cs",
+              "DocumentMoniker": "C:\\Users\\aarmbrust2\\Desktop\\repo\\NCGameJam2026-TeamC\\Assets\\Scripts\\Door.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Door.cs",
+              "ToolTip": "C:\\Users\\aarmbrust2\\Desktop\\repo\\NCGameJam2026-TeamC\\Assets\\Scripts\\Door.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Door.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAAAFYAAAB0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T16:04:13.694Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
@@ -55,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "2_Quest-IceWine.txt",
               "DocumentMoniker": "C:\\Users\\aarmbrust2\\Desktop\\repo\\NCGameJam2026-TeamC\\Assets\\Resources\\2_Quest-IceWine.txt",
               "RelativeDocumentMoniker": "Assets\\Resources\\2_Quest-IceWine.txt",
@@ -67,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Narrative.cs",
               "DocumentMoniker": "C:\\Users\\aarmbrust2\\Desktop\\repo\\NCGameJam2026-TeamC\\Assets\\Scripts\\Narrative.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Narrative.cs",
@@ -79,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "First Person Controller.cs",
               "DocumentMoniker": "C:\\Users\\aarmbrust2\\Desktop\\repo\\NCGameJam2026-TeamC\\Assets\\Scripts\\First Person Controller.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\First Person Controller.cs",
@@ -87,12 +155,11 @@
               "RelativeToolTip": "Assets\\Scripts\\First Person Controller.cs",
               "ViewState": "AgIAADwAAAAAAAAAAAAowFEAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-31T03:53:32.357Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-31T03:53:32.357Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "PlayerGrabSystem.cs",
               "DocumentMoniker": "C:\\Users\\aarmbrust2\\Desktop\\repo\\NCGameJam2026-TeamC\\Assets\\Scripts\\PlayerGrabSystem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerGrabSystem.cs",
@@ -100,25 +167,22 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerGrabSystem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-31T02:50:04.744Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-31T02:50:04.744Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "PickupItem.cs",
               "DocumentMoniker": "C:\\Users\\aarmbrust2\\Desktop\\repo\\NCGameJam2026-TeamC\\Assets\\Scripts\\PickupItem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PickupItem.cs",
               "ToolTip": "C:\\Users\\aarmbrust2\\Desktop\\repo\\NCGameJam2026-TeamC\\Assets\\Scripts\\PickupItem.cs",
               "RelativeToolTip": "Assets\\Scripts\\PickupItem.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAwwDgAAABrAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-31T02:43:57.126Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-31T02:43:57.126Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "ItemSpawner.cs",
               "DocumentMoniker": "C:\\Users\\aarmbrust2\\Desktop\\repo\\NCGameJam2026-TeamC\\Assets\\Scripts\\ItemSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ItemSpawner.cs",
