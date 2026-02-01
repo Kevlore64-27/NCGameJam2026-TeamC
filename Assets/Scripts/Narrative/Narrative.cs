@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class Narrative : MonoBehaviour
@@ -45,7 +46,12 @@ public class Narrative : MonoBehaviour
     {
         ObjectiveManager.Instance.OnObjectiveChanged -= ChangeAct;
         ObjectiveManager.Instance.OnAllObjectivesComplete -= ObjectivesComplete;
+        StartCoroutine(FinalAct());
+    }
 
+
+    IEnumerator FinalAct()
+    {
         dialogueTextBox.actIndex++;
         dialogueTextBox.isIdle = false;
 
@@ -56,7 +62,9 @@ public class Narrative : MonoBehaviour
         dialogueTextBox.idleLines.Clear();
         for (int i = 0; i < textLines[dialogueTextBox.actIndex].idleClips.Count; i++)
             dialogueTextBox.idleLines.Add(textLines[dialogueTextBox.actIndex].idleClips[i]);
-
         Debug.Log("Showing text for 'Choice' narrative moment");
+        dialogueTextBox.gameObject.SetActive(true);
+
+        yield return null;
     }
 }
