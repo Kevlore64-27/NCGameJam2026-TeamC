@@ -10,14 +10,14 @@ public class DialogueTextBox : MonoBehaviour
     public TextMeshProUGUI dialogueBox;
     public float textSpeed;
 
-    private int actIndex = 0;
+    [HideInInspector] public int actIndex = 0;
     private int lineIndex;
 
     [Header("Text & Voice")]
     public List<string> dialogueLines;
     public List<string> idleLines;
 
-    bool isIdle = false;
+    public bool isIdle = false;
 
     void OnEnable()
     {
@@ -79,7 +79,7 @@ public class DialogueTextBox : MonoBehaviour
         }
         else
         {
-            lineIndex = Random.Range(0, Narrative.Instance.voiceLines[actIndex].voiceClips.Length - 1);
+            lineIndex = Random.Range(0, Narrative.Instance.voiceLines[actIndex].idleClips.Length);
             StartCoroutine(TypeIdleLine());
         }
     }

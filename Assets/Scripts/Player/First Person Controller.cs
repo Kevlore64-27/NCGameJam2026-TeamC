@@ -148,19 +148,32 @@ public class FirstPersonController : MonoBehaviour
 
         if (Physics.Raycast(ray, out RaycastHit hit, hoverDistance, hoverLayer))
         {
-            Objectiveitem objItem = hit.collider.GetComponentInParent<Objectiveitem>();
-            if (objItem != null && objItem.IsCompleted)
+            if (hit.collider.CompareTag("Doctor"))
             {
-                hoverText.text = "";
-                return;
+                HoverName hoverName = hit.collider.GetComponentInParent<HoverName>();
+                if (hoverName != null)
+                {
+                    hoverText.text = hoverName.DisplayName;
+                    return;
+                }
+            }
+            else
+            {
+                Objectiveitem objItem = hit.collider.GetComponentInParent<Objectiveitem>();
+                if (objItem != null && objItem.IsCompleted)
+                {
+                    hoverText.text = "";
+                    return;
+                }
+
+                HoverName hoverName = hit.collider.GetComponentInParent<HoverName>();
+                if (hoverName != null)
+                {
+                    hoverText.text = hoverName.DisplayName;
+                    return;
+                }
             }
 
-            HoverName hoverName = hit.collider.GetComponentInParent<HoverName>();
-            if (hoverName != null)
-            {
-                hoverText.text = hoverName.DisplayName;
-                return;
-            }
         }
 
         hoverText.text = "";

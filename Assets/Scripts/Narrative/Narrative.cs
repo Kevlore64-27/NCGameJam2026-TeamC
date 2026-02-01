@@ -25,6 +25,7 @@ public class Narrative : MonoBehaviour
     {
         ChangeAct(0, "Mortar");
         ObjectiveManager.Instance.OnObjectiveChanged += ChangeAct;
+        ObjectiveManager.Instance.OnAllObjectivesComplete += ObjectivesComplete;
     }
 
     void ChangeAct(int act, string item)
@@ -38,5 +39,24 @@ public class Narrative : MonoBehaviour
             dialogueTextBox.idleLines.Add(textLines[act].idleClips[i]);
 
         Debug.Log("Showing text for objective: " + item);
+    }
+
+    void ObjectivesComplete()
+    {
+        ObjectiveManager.Instance.OnObjectiveChanged -= ChangeAct;
+        ObjectiveManager.Instance.OnAllObjectivesComplete -= ObjectivesComplete;
+
+        dialogueTextBox.actIndex++;
+        dialogueTextBox.isIdle = false;
+
+        dialogueTextBox.dialogueLines.Clear();
+        for (int i = 0; i < textLines[dialogueTextBox.actIndex].textClips.Count; i++)
+            dialogueTextBox.dialogueLines.Add(textLines[dialogueTextBox.actIndex].textClips[i]);
+
+        dialogueTextBox.idleLines.Clear();
+        for (int i = 0; i < textLines[dialogueTextBox.actIndex].idleClips.Count; i++)
+            dialogueTextBox.idleLines.Add(textLines[dialogueTextBox.actIndex].idleClips[i]);
+
+        Debug.Log("Showing text for 'Choice' narrative moment");
     }
 }
