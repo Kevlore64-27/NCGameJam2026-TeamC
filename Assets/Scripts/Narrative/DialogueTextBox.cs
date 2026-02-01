@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -18,6 +19,8 @@ public class DialogueTextBox : MonoBehaviour
     public List<string> idleLines;
 
     public bool isIdle = false;
+    public event Action OnDialogueSequenceFinished;
+    public event Action OnEndingDialogueFinished;
 
     void OnEnable()
     {
@@ -79,7 +82,7 @@ public class DialogueTextBox : MonoBehaviour
         }
         else
         {
-            lineIndex = Random.Range(0, Narrative.Instance.voiceLines[actIndex].idleClips.Length);
+            lineIndex = UnityEngine.Random.Range(0, Narrative.Instance.voiceLines[actIndex].idleClips.Length);
             StartCoroutine(TypeIdleLine());
         }
     }
@@ -124,6 +127,7 @@ public class DialogueTextBox : MonoBehaviour
         {
             isIdle = true;
             gameObject.SetActive(false);
+            OnDialogueSequenceFinished?.Invoke();
         }
     }
 }

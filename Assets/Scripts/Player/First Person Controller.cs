@@ -241,7 +241,6 @@ public class FirstPersonController : MonoBehaviour
     {
         verticalRotation = Mathf.Clamp(verticalRotation - rotationAmount, -upDownLookRange, upDownLookRange);
         cam.transform.localRotation = Quaternion.Euler(verticalRotation, 0.0f, 0.0f);
-
     }
 
     private void HandleRotation()
