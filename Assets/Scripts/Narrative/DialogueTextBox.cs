@@ -30,8 +30,8 @@ public class DialogueTextBox : MonoBehaviour
     }
     private void Start()
     {
-
         ObjectiveManager.Instance.OnObjectiveChanged += ChangeAct;
+
     }
 
     void ChangeAct(int act, string item)

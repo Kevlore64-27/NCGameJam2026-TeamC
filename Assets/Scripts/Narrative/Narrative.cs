@@ -31,6 +31,7 @@ public class Narrative : MonoBehaviour
         ChangeAct(0, "Mortar");
         ObjectiveManager.Instance.OnObjectiveChanged += ChangeAct;
         ObjectiveManager.Instance.OnAllObjectivesComplete += ObjectivesComplete;
+        dialogueTextBox.gameObject.SetActive(true);
     }
 
     void ChangeAct(int act, string item)
