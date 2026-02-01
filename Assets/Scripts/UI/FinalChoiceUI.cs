@@ -17,7 +17,12 @@ public class FinalChoiceUI : MonoBehaviour
     [Tooltip("ObjectiveId of the dirty syringe prefab.")]
     [SerializeField] private string dirtySyringeId = "Dirty Syringe";
 
+    [Header("Post-Choice Dialogue Acts")]
+    [SerializeField] private int actInjectSelf = 9;
+    [SerializeField] private int actInjectDoctor = 8;
+
     private ObjectiveManager manager;
+    private string pendingEndingKey;
 
     private void Awake()
     {
@@ -33,7 +38,7 @@ public class FinalChoiceUI : MonoBehaviour
         manager = ObjectiveManager.Instance != null ? ObjectiveManager.Instance : FindAnyObjectByType<ObjectiveManager>();
         if (manager != null)
         {
-            manager.OnAllObjectivesComplete += ShowChoices;
+            //manager.OnAllObjectivesComplete += ShowChoices;
         }
     }
 
@@ -41,21 +46,17 @@ public class FinalChoiceUI : MonoBehaviour
     {
         if (manager != null)
         {
-            manager.OnAllObjectivesComplete -= ShowChoices;
+            //manager.OnAllObjectivesComplete -= ShowChoices;
         }
     }
 
-    private void ShowChoices()
+    public void ShowChoicesFromNarrative()
     {
         if (choicePanel != null)
-        {
             choicePanel.SetActive(true);
-        }
 
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
-
-        //Time.timeScale = 0.0f;
     }
 
     public void ChooseInjectSelf()
@@ -74,34 +75,32 @@ public class FinalChoiceUI : MonoBehaviour
     {
         if (manager == null)
         {
-            ShowEnding("ERROR: ObjectiveManager missing");
+            BeginPostChoiceDialogue("ERROR: ObjectiveManager missing", injectSelf);
             return;
         }
 
         bool ingredientsCorrect = !manager.MadeMistake;
         bool syringeClean = GetSyringeIsCleanFromChoices();
 
-        // Dirty syringe: both die (always)
         if (!syringeClean)
         {
-            ShowEnding("BothDie_DirtySyringe");
+            BeginPostChoiceDialogue("BothDie_DirtySyringe", injectSelf);
             return;
         }
 
-        // Clean syringe cases
         if (injectSelf)
         {
-            if (ingredientsCorrect)
-                ShowEnding("GoodEscape_SelfClean_AllCorrect");
-            else
-                ShowEnding("Die_SelfClean_WrongIngredients");
+            BeginPostChoiceDialogue(
+                ingredientsCorrect ? "GoodEscape_SelfClean_AllCorrect" : "Die_SelfClean_WrongIngredients",
+                true
+            );
         }
         else
         {
-            if (ingredientsCorrect)
-                ShowEnding("DoctorEscapes_YouDie_Clean_AllCorrect");
-            else
-                ShowEnding("BothDie_Clean_WrongIngredients");
+            BeginPostChoiceDialogue(
+                ingredientsCorrect ? "DoctorEscapes_YouDie_Clean_AllCorrect" : "BothDie_Clean_WrongIngredients",
+                false
+            );
         }
     }
 
@@ -125,7 +124,7 @@ public class FinalChoiceUI : MonoBehaviour
         return false; // not found => treat as dirty
     }
 
-    private void ShowEnding(string endingKey)
+    public void ShowEnding(string endingKey)
     {
         Debug.Log($"[FinalChoiceUI] ENDING: {endingKey}");
 
@@ -146,8 +145,28 @@ public class FinalChoiceUI : MonoBehaviour
         Time.timeScale = 0f;
     }
 
+    private void BeginPostChoiceDialogue(string endingKey, bool injectSelf)
+    {
+        if (choicePanel != null) choicePanel.SetActive(false);
+        Time.timeScale = 1f;
+
+        int actToPlay = injectSelf ? actInjectSelf : actInjectDoctor;
+
+        if (Narrative.Instance != null)
+            Narrative.Instance.StartPostChoiceDialogue(actToPlay, endingKey);
+        else
+            ShowEnding(endingKey);
+    }
+
     private string FormatEndingText(string key)
     {
+        if (string.IsNullOrWhiteSpace(key))
+            return "ENDING:\n<missing key>";
+
+        key = key.Trim();
+
+        Debug.Log($"[FinalChoiceUI] FormatEndingText key='{key}'");
+
         return key switch
         {
             "GoodEscape_SelfClean_AllCorrect" =>
@@ -167,5 +186,11 @@ public class FinalChoiceUI : MonoBehaviour
 
             _ => $"ENDING:\n{key}"
         };
+    }
+
+    public void ShowPendingEnding()
+    {
+        Debug.Log($"[FinalChoiceUI] ShowPendingEnding pendingEndingKey='{pendingEndingKey}'");
+        ShowEnding(pendingEndingKey);
     }
 }
