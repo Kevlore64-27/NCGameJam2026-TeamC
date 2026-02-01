@@ -983,6 +983,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4273427954152599757, guid: 3baacbc9e68c96e4e9bcf85f2f58fe5c, type: 3}
+      propertyPath: doctor
+      value: 
+      objectReference: {fileID: 1911159538}
+    - target: {fileID: 4273427954152599757, guid: 3baacbc9e68c96e4e9bcf85f2f58fe5c, type: 3}
       propertyPath: hoverText
       value: 
       objectReference: {fileID: 835755324}
