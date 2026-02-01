@@ -64,6 +64,9 @@ public class FirstPersonController : MonoBehaviour
 
     private Vector3 initCamPos;
 
+    public bool rotationLock = false;
+    [SerializeField] GameObject doctor;
+
     private Vector3 lastPos;
     private bool isHolding;
 
@@ -242,8 +245,15 @@ public class FirstPersonController : MonoBehaviour
 
     private void HandleRotation()
     {
-        ApplyHorizontalRotation(mouseXRotation);
-        ApplyVerticalRotation(mouseYRotation);
+        if (!rotationLock)
+        {
+            ApplyHorizontalRotation(mouseXRotation);
+            ApplyVerticalRotation(mouseYRotation);
+        }
+        else
+        {
+            transform.LookAt(doctor.transform.position);
+        }
     }
 
     private void HandleInteract()
