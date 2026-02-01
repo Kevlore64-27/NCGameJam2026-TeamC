@@ -1,0 +1,1170 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &695600123365185899
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7941705800178939535}
+  - component: {fileID: 1865322719270132343}
+  - component: {fileID: 232338131442845674}
+  m_Layer: 0
+  m_Name: Act09 - Condemned
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7941705800178939535
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 695600123365185899}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 567912548866316817}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1865322719270132343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 695600123365185899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 917c4e0b8c5165f45b89f2b0a1e5f870, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  voiceClips:
+  - {fileID: 8300000, guid: 2e6fcf1c69daf904a907e2bcaba79130, type: 3}
+  - {fileID: 8300000, guid: 2d2d89063dbf23e4da1ea0991873db00, type: 3}
+  - {fileID: 8300000, guid: 0ae846576d92e8f45bfd36f74c122fa3, type: 3}
+  - {fileID: 8300000, guid: 80f036065d1918745b478eca1176993e, type: 3}
+  - {fileID: 8300000, guid: 7f77dc24a14f3704b84f3082de880a7f, type: 3}
+  idleClips: []
+--- !u!114 &232338131442845674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 695600123365185899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55cdf21505f8325478ec7f460262bbc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textClips:
+  - 'COUGH COUGH... Did you... Did you just... '
+  - 'You just... Used it... On yourself... You fool... '
+  - 'You''re... You''re condemning me to death down here, you know that, right? The
+    only one who knows how to make a Cure! '
+  - 'COUGH... There''s a... There''s a special place waitin'' in hell for you mate... '
+  - COUGH... COUGH...
+  idleClips: []
+--- !u!1 &1585567114438956959
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2359753527981382342}
+  - component: {fileID: 6257343991041210462}
+  - component: {fileID: 2537221764872024906}
+  m_Layer: 0
+  m_Name: Act01 - Wine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2359753527981382342
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1585567114438956959}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 567912548866316817}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6257343991041210462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1585567114438956959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 917c4e0b8c5165f45b89f2b0a1e5f870, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  voiceClips:
+  - {fileID: 8300000, guid: 973b625d71aeeb0479f4746b0c9188ec, type: 3}
+  - {fileID: 8300000, guid: aba88613352060f45a50378880ad8bcc, type: 3}
+  - {fileID: 8300000, guid: 32e156422d80df040a8b23267833af6e, type: 3}
+  - {fileID: 8300000, guid: 17a7de40af29100488d6a600d64d34e3, type: 3}
+  idleClips:
+  - {fileID: 8300000, guid: 53f79a8531f870c4dafb452fe76537c9, type: 3}
+  - {fileID: 8300000, guid: 35608b5f132290745b7b9d38d82ae46f, type: 3}
+  - {fileID: 8300000, guid: 8ed3b27ce20d99d4f8b09185c94d9dfd, type: 3}
+--- !u!114 &2537221764872024906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1585567114438956959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55cdf21505f8325478ec7f460262bbc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textClips:
+  - 'Beauty mate. Now we can get started. '
+  - 'Next is a bottle of Ice Wine. Should act as a nice base. '
+  - 'Folks used to come down here for er... Ahem... debauchery... all the time. '
+  - 'Do some explorin''. I''m sure you''ll find some eventually. '
+  idleClips:
+  - 'COUGH... Cant make a Cure without a good base mate. Some nice Ice Wine oughta
+    do the trick. '
+  - 'Yunno me personally... I''m partial to the Spice Wine. But Ice Wine''s what
+    I need. '
+  - Ice Wine ain't Spicy, but it sure is Nice.
+--- !u!1 &3569275960282165473
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 783520822617926896}
+  - component: {fileID: 527487605138835869}
+  - component: {fileID: 7534783357878347909}
+  m_Layer: 0
+  m_Name: Act00 - Greeting/M&P
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &783520822617926896
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3569275960282165473}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 567912548866316817}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &527487605138835869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3569275960282165473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 917c4e0b8c5165f45b89f2b0a1e5f870, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  voiceClips:
+  - {fileID: 8300000, guid: f70b9d41c73626548a3f22bc22880cbf, type: 3}
+  - {fileID: 8300000, guid: 49f72be8c5fd305428a0edd9e3881a7f, type: 3}
+  - {fileID: 8300000, guid: 066af9aa28b5ab2449adeefea09bf2e3, type: 3}
+  - {fileID: 8300000, guid: 82b0e4733a2923549adf7f4c283654cd, type: 3}
+  idleClips:
+  - {fileID: 8300000, guid: 2670f8d6ea715a640ad5f4cb7a93c827, type: 3}
+  - {fileID: 8300000, guid: 05142612feedadf4db04403e550aea1c, type: 3}
+  - {fileID: 8300000, guid: 5a4759d3386487944baae56d20d8da77, type: 3}
+--- !u!114 &7534783357878347909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3569275960282165473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55cdf21505f8325478ec7f460262bbc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textClips:
+  - 'Oh... Oh thank the Gods... They finally sent someone For me, aye '
+  - 'Hey buddy. I don''t got much time left, you gotta help me. '
+  - 'I- uh. AHEM. I can make a Cure for your sickness! I just need you to find me
+    some things, yeah? '
+  - First, I need you to bring me the Mortar and Pestle. Just on the table there.
+  idleClips:
+  - 'C''mon, Mate! Givin'' up so soon? Mortar and Pestle... Right here on the table. '
+  - 'Aye are you listenin''? Mortar and Pestle... Right here on the table. '
+  - 'Mate! Its RIGHT THERE! MORTAR! PESTLE! TABLE! Are you listenin''? '
+--- !u!1 &4478943335093063403
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5895238865552988100}
+  - component: {fileID: 8264220401779299328}
+  - component: {fileID: 2329010482806607752}
+  - component: {fileID: 4097593040064083815}
+  m_Layer: 5
+  m_Name: DialogueCanvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5895238865552988100
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4478943335093063403}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1585888829412499988}
+  m_Father: {fileID: 567912548866316817}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!223 &8264220401779299328
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4478943335093063403}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!114 &2329010482806607752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4478943335093063403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 1920, y: 1080}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!114 &4097593040064083815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4478943335093063403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!1 &4698389608827894485
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1585888829412499988}
+  - component: {fileID: 824898174255753005}
+  - component: {fileID: 6615647149788114343}
+  - component: {fileID: 872249093530914764}
+  m_Layer: 5
+  m_Name: DialogueBox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1585888829412499988
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4698389608827894485}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2407848463012389349}
+  m_Father: {fileID: 5895238865552988100}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -300}
+  m_SizeDelta: {x: -200, y: -800}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &824898174255753005
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4698389608827894485}
+  m_CullTransparentMesh: 1
+--- !u!114 &6615647149788114343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4698389608827894485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &872249093530914764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4698389608827894485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8b6a665dbf299043a8ed49d7377c816, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueBox: {fileID: 7436381699385019659}
+  textSpeed: 0.05
+  dialogueLines:
+  - test1
+  - test2
+  - unga bunga ooky spooky
+  idleLines: []
+--- !u!1 &5185014226312657294
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4369233376255342157}
+  - component: {fileID: 2709085959818574951}
+  - component: {fileID: 1577428760074875766}
+  m_Layer: 0
+  m_Name: Act06 - Syringe
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4369233376255342157
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5185014226312657294}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 567912548866316817}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2709085959818574951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5185014226312657294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 917c4e0b8c5165f45b89f2b0a1e5f870, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  voiceClips:
+  - {fileID: 8300000, guid: cd23fc2eeb234414dab6ec9b650aead2, type: 3}
+  - {fileID: 8300000, guid: 78930263f6e4f6f46b2e9dd57eb3eba4, type: 3}
+  - {fileID: 8300000, guid: 1f4322a7fc06b5844992448b7f390b98, type: 3}
+  - {fileID: 8300000, guid: 3ff6bb8fadd85cf4faead7f93c563c19, type: 3}
+  idleClips:
+  - {fileID: 8300000, guid: 893b54b852a128c4d8c6fcdcbf3ae700, type: 3}
+  - {fileID: 8300000, guid: b94caaeb46adaec4bbe2846f7bc4e435, type: 3}
+  - {fileID: 8300000, guid: 0ab79a340ff53f54cb65f0be6d08029a, type: 3}
+--- !u!114 &1577428760074875766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5185014226312657294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55cdf21505f8325478ec7f460262bbc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textClips:
+  - 'Ugh... Did- COUGH Did you get the light mate? '
+  - 'Oh... Bleedin'' ''ell. Even with it I can''t see nothin! I''ll have to do without... '
+  - 'Last I- COUGH Syringe... Back room... '
+  - 'Make sure its clean... '
+  idleClips:
+  - 'Syringe mate- COUGH Don''t need to see ya to know you ain''t got one... COUGH '
+  - 'C''mon mate, clean Syringe is what I need. Find it, hurry.. '
+  - Are you daft, mate? Syringe! We're right at the end let's go!
+--- !u!1 &5870558843725370946
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7185385431948151946}
+  - component: {fileID: 1707531847489875673}
+  - component: {fileID: 4885263128162015489}
+  m_Layer: 0
+  m_Name: Act08 - Saved
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7185385431948151946
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5870558843725370946}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 567912548866316817}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1707531847489875673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5870558843725370946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 917c4e0b8c5165f45b89f2b0a1e5f870, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  voiceClips:
+  - {fileID: 8300000, guid: d0270085cade15546aa3a95070cb41aa, type: 3}
+  - {fileID: 8300000, guid: 41d2e8bfbd9ce5948af96f084fefb0c5, type: 3}
+  - {fileID: 8300000, guid: f2ca7e4eb5ad229409214f3cdbd1011e, type: 3}
+  - {fileID: 8300000, guid: 8e7ab9843aa6c474daccef10be4176b4, type: 3}
+  - {fileID: 8300000, guid: 61605fd9edfbfb84b84fee01abd3186c, type: 3}
+  idleClips: []
+--- !u!114 &4885263128162015489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5870558843725370946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55cdf21505f8325478ec7f460262bbc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textClips:
+  - 'Oh... I think I can feel it workin''! Yeah! That''s... That''s good. '
+  - 'Listen mate, if it wasn''t today for ya, it''d be tomorrow. Better to just...
+    Pass on, yeah? '
+  - 'I''m gonna get outta here, but you... You, well... You gotta stay, mate. '
+  - 'It''s nothin'' personal but... Well you''re infected, mate. You gotta stay down
+    here so that the others don''t get infected. '
+  - I'd say I wish you luck but... I think yours just ran out, mate.
+  idleClips: []
+--- !u!1 &6744895289133257755
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 567912548866316817}
+  - component: {fileID: 4778226112220656011}
+  m_Layer: 0
+  m_Name: NarrativeManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &567912548866316817
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6744895289133257755}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.7628803, y: 1.8879651, z: 3.6768281}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 783520822617926896}
+  - {fileID: 2359753527981382342}
+  - {fileID: 7525333245496998035}
+  - {fileID: 3318090112853070596}
+  - {fileID: 9152645323230909466}
+  - {fileID: 5771618307067700430}
+  - {fileID: 4369233376255342157}
+  - {fileID: 3463199719538700415}
+  - {fileID: 7185385431948151946}
+  - {fileID: 7941705800178939535}
+  - {fileID: 5895238865552988100}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4778226112220656011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6744895289133257755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f06525253cdd4d40afbb910c335bfe0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doctor: {fileID: 0}
+  voiceLines:
+  - {fileID: 527487605138835869}
+  - {fileID: 6257343991041210462}
+  - {fileID: 7365584696396927137}
+  - {fileID: 2096670952672292477}
+  - {fileID: 8804456262207235908}
+  - {fileID: 175309379659839623}
+  - {fileID: 2709085959818574951}
+  - {fileID: 5465971980611226046}
+  - {fileID: 1707531847489875673}
+  - {fileID: 1865322719270132343}
+  dialogueTextBox: {fileID: 872249093530914764}
+  textLines:
+  - {fileID: 7534783357878347909}
+  - {fileID: 2537221764872024906}
+  - {fileID: 3270351160407795602}
+  - {fileID: 4567105465531344162}
+  - {fileID: 6331624921702980852}
+  - {fileID: 2568939164598364961}
+  - {fileID: 1577428760074875766}
+  - {fileID: 4493923919726941570}
+  - {fileID: 4885263128162015489}
+  - {fileID: 232338131442845674}
+--- !u!1 &7063749932762028384
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5771618307067700430}
+  - component: {fileID: 175309379659839623}
+  - component: {fileID: 2568939164598364961}
+  m_Layer: 0
+  m_Name: Act05 - Lantern
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5771618307067700430
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7063749932762028384}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 567912548866316817}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &175309379659839623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7063749932762028384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 917c4e0b8c5165f45b89f2b0a1e5f870, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  voiceClips:
+  - {fileID: 8300000, guid: 1d818851f922a8842a74a40aee6d1a3b, type: 3}
+  - {fileID: 8300000, guid: 922bf0d72600233438a75c3c088a8a6b, type: 3}
+  - {fileID: 8300000, guid: 29364a6b932e51341bfdeb29831bdeac, type: 3}
+  - {fileID: 8300000, guid: 87a46d88447bbe647833d252851fe4e0, type: 3}
+  idleClips:
+  - {fileID: 8300000, guid: 2d969cd0d4d67c2448d8ad811b93e14a, type: 3}
+  - {fileID: 8300000, guid: 7a1733e699b298a4793691ab37112a45, type: 3}
+  - {fileID: 8300000, guid: 0b0053d654df9fc4cb460ce04453f47a, type: 3}
+--- !u!114 &2568939164598364961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7063749932762028384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55cdf21505f8325478ec7f460262bbc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textClips:
+  - COUGH That you mate?
+  - I can't see a damn thing...
+  - I need a light to work, mate.
+  - Grab me a Lantern. AHEM... that should help...
+  idleClips:
+  - Still can't- COUGH I still can't see nothin' mate... Grab a Lantern.
+  - C'mon mate I need light here. Grab me a Lantern, hurry!
+  - Mate I can't work in the dark like this. Get me a bleedin' Lantern!
+--- !u!1 &7465880702985691809
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3463199719538700415}
+  - component: {fileID: 5465971980611226046}
+  - component: {fileID: 4493923919726941570}
+  m_Layer: 0
+  m_Name: Act07 - Choice
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3463199719538700415
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7465880702985691809}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 567912548866316817}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5465971980611226046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7465880702985691809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 917c4e0b8c5165f45b89f2b0a1e5f870, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  voiceClips:
+  - {fileID: 8300000, guid: 99fcb92f32729574cae74e52cd7391be, type: 3}
+  - {fileID: 8300000, guid: b8cc209aa95594b468c01b08c2292ad7, type: 3}
+  - {fileID: 8300000, guid: e1c95b70a70da5142ae410ac0717c962, type: 3}
+  - {fileID: 8300000, guid: b388945cd6c121245b894a439dcf6f3b, type: 3}
+  - {fileID: 8300000, guid: 93f1d363f0e41a44889a55eaa62830e5, type: 3}
+  idleClips:
+  - {fileID: 8300000, guid: 4a0b80bb66161b74b935454b8e245481, type: 3}
+  - {fileID: 8300000, guid: 90935f607b4c42c44907ee6414f4c709, type: 3}
+  - {fileID: 8300000, guid: 4d4b873c2fb7a6c449d024d14d1fa696, type: 3}
+--- !u!114 &4493923919726941570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7465880702985691809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55cdf21505f8325478ec7f460262bbc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textClips:
+  - 'Alright mate... now GOUGH COUGH... COUGH... '
+  - 'All you''ve gotta do is... AHEM Take some''a this up in the Syringe... '
+  - 'An'' Jab me nice an''... nice and good in the COUGH Nice and good in the arm... '
+  - 'I know I said the Cure was for you mate, but lookatcha! COUGH COUGH... You''re
+    too far gone mate. '
+  - 'If we give it to you it''ll just go to waste! COUGH But if I take it... Think
+    of all the people I could save! COUGH COUGH '
+  idleClips:
+  - 'C''mon mate just-just gimme the needle mate let''s go. COUGH '
+  - 'I hate to tell you, but you''re dyin'' down here mate. You''re dyin'' down here
+    mate. I actually have a chance! C''mon! '
+  - C'mon mate j-just stick the needle in c'mon...
+--- !u!1 &8576656396947781014
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9152645323230909466}
+  - component: {fileID: 8804456262207235908}
+  - component: {fileID: 6331624921702980852}
+  m_Layer: 0
+  m_Name: Act04 - Humors
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9152645323230909466
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8576656396947781014}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 567912548866316817}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8804456262207235908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8576656396947781014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 917c4e0b8c5165f45b89f2b0a1e5f870, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  voiceClips:
+  - {fileID: 8300000, guid: 64e2dde9fc44ada4fbc990e80ea412b4, type: 3}
+  - {fileID: 8300000, guid: 8c7043755faa827408be2c7b89adc2ef, type: 3}
+  - {fileID: 8300000, guid: 4feacd404085d90468996db5f45e0011, type: 3}
+  - {fileID: 8300000, guid: 0e094bd32fc1dbe418f85116657159f8, type: 3}
+  idleClips:
+  - {fileID: 8300000, guid: 80c4c1348b558f743a466c608fd325eb, type: 3}
+  - {fileID: 8300000, guid: 3f4ecfa2c06ef5b40aaeea7bc72e6f3b, type: 3}
+  - {fileID: 8300000, guid: 7fa21e9201a4b724e85209587ded51bd, type: 3}
+--- !u!114 &6331624921702980852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8576656396947781014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55cdf21505f8325478ec7f460262bbc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textClips:
+  - 'Right. Right... ugh... Next is uhh... '
+  - 'Somethin'' to balance the humors! COUGH COUGH '
+  - 'Look around for some uh... Mercury... Sulfur and uh... '
+  - 'Oh! Some salt! They''re usually stored together. '
+  idleClips:
+  - 'I can''t finish the Cure without balanced humors... COUGH Mercury, Sulfur...
+    And Salt. '
+  - 'C''mon mate, they''re basic principles! Mercury, Sulfur, Salt! Chop Chop! '
+  - C'mon mate you made it this far, find the rest! Mercury, Sulfur and Salt!
+--- !u!1 &8717029301345918555
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2407848463012389349}
+  - component: {fileID: 5063280054469929783}
+  - component: {fileID: 7436381699385019659}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2407848463012389349
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8717029301345918555}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1585888829412499988}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1600, y: 200}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &5063280054469929783
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8717029301345918555}
+  m_CullTransparentMesh: 1
+--- !u!114 &7436381699385019659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8717029301345918555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: New Text
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: c9cf66e014b379e41a26fc3dacefdcd9, type: 2}
+  m_sharedMaterial: {fileID: 8037619524325552298, guid: c9cf66e014b379e41a26fc3dacefdcd9, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 60
+  m_fontSizeBase: 60
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &8776304157891254286
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7525333245496998035}
+  - component: {fileID: 7365584696396927137}
+  - component: {fileID: 3270351160407795602}
+  m_Layer: 0
+  m_Name: Act02 - Herbs
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7525333245496998035
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8776304157891254286}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 567912548866316817}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7365584696396927137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8776304157891254286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 917c4e0b8c5165f45b89f2b0a1e5f870, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  voiceClips:
+  - {fileID: 8300000, guid: 9d3b18d6138e5c240b40072859381d5f, type: 3}
+  - {fileID: 8300000, guid: ca47b35918a8b5b40a99976e7902bd47, type: 3}
+  - {fileID: 8300000, guid: a88152673e053db4096f8ef06d3cf7da, type: 3}
+  - {fileID: 8300000, guid: e2510a7dda481a14b8b548cc5bb15da6, type: 3}
+  idleClips:
+  - {fileID: 8300000, guid: 868da55e421e8cc4fb1ae792767002e4, type: 3}
+  - {fileID: 8300000, guid: b031e0db18771f44bafab317f9445539, type: 3}
+  - {fileID: 8300000, guid: 5e5f819fbfcbcd34d9015e6b99733fdc, type: 3}
+--- !u!114 &3270351160407795602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8776304157891254286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55cdf21505f8325478ec7f460262bbc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textClips:
+  - 'COUGH-COUGH Took you long enough! Been waitin'' so long the Herbs in me mask
+    have lost their muster! '
+  - 'Fetch me a new batch, will ya? '
+  - 'Make sure to get me the Green ones...uh-No! No wait! Magenta. Is it Magenta?
+    ... I think those are the ones I need... '
+  - 'Whatever, just... Go grab ''em will ya? '
+  idleClips:
+  - 'I can smell the Sick through my Herbs... COUGH... Find me a new batch! '
+  - 'C''mon mate, HERBS! I can''t think with this wretched stench in here... '
+  - Mate, anything'll do! Just grab 'em okay?
+--- !u!1 &9118063938124072575
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3318090112853070596}
+  - component: {fileID: 2096670952672292477}
+  - component: {fileID: 4567105465531344162}
+  m_Layer: 0
+  m_Name: Act03 - Leeches
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3318090112853070596
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9118063938124072575}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 567912548866316817}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2096670952672292477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9118063938124072575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 917c4e0b8c5165f45b89f2b0a1e5f870, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  voiceClips:
+  - {fileID: 8300000, guid: 20977c7b6f6d14742a0a3cd67fb426c8, type: 3}
+  - {fileID: 8300000, guid: c79cafce74b6d2e40b7b7688063bfdb6, type: 3}
+  - {fileID: 8300000, guid: a5a64c3a2205b32469fa2e5bd1a56706, type: 3}
+  idleClips:
+  - {fileID: 8300000, guid: eff436e2122a417478e7e80faa53543f, type: 3}
+  - {fileID: 8300000, guid: 904c0f550f35b6041abffb0fa671212f, type: 3}
+  - {fileID: 8300000, guid: 9272d0f004c26244d9e60443a84696ba, type: 3}
+--- !u!114 &4567105465531344162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9118063938124072575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55cdf21505f8325478ec7f460262bbc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textClips:
+  - 'Ehh these Herbs are half wilted! COUGH... I guess it''ll have to do though... '
+  - 'Alright I need a blood sample now... uhh Leeches! Thats right Leeches... '
+  - 'Bring me COUGH... Leeches... '
+  idleClips:
+  - 'No need to- COUGH worry mate... I''ll use me own blood. Just get me the- AHEM...
+    Get me the Leeches... '
+  - 'I was always partial to Leeches myself... Just somethin'' about ''em, yunno? '
+  - C'mon mate... Be more useful! Leeches! Let's go!

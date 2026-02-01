@@ -45,6 +45,8 @@ public class FirstPersonController : MonoBehaviour
     [SerializeField] private float hoverDistance = 3.0f;
     [SerializeField] private LayerMask hoverLayer;
 
+    [Header("Dialogue")]
+    [SerializeField] GameObject dialogueBox;
     public Vector3 PlayerVelocity { get; private set; }
 
     // private variables
@@ -247,6 +249,10 @@ public class FirstPersonController : MonoBehaviour
                     {
                         door.Interact();
                     }
+                }
+                else if (hit.collider.CompareTag("Doctor"))
+                {
+                    dialogueBox.SetActive(true);
                 }
             }
         }
