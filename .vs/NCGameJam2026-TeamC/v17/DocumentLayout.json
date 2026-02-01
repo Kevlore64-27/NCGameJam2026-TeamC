@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\kelliott17\\Documents\\GitHub\\NCGameJam2026-TeamC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3553CCAA-9D90-E023-FE1B-88904AE7E11B}|Assembly-CSharp.csproj|C:\\Users\\kelliott17\\Documents\\GitHub\\NCGameJam2026-TeamC\\assets\\scripts\\narrative\\dialoguetextbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3553CCAA-9D90-E023-FE1B-88904AE7E11B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\narrative\\dialoguetextbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3553CCAA-9D90-E023-FE1B-88904AE7E11B}|Assembly-CSharp.csproj|c:\\users\\kelliott17\\documents\\github\\ncgamejam2026-teamc\\assets\\managers\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3553CCAA-9D90-E023-FE1B-88904AE7E11B}|Assembly-CSharp.csproj|solutionrelative:assets\\managers\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3553CCAA-9D90-E023-FE1B-88904AE7E11B}|Assembly-CSharp.csproj|c:\\users\\kelliott17\\documents\\github\\ncgamejam2026-teamc\\assets\\scripts\\player\\first person controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3553CCAA-9D90-E023-FE1B-88904AE7E11B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\first person controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3553CCAA-9D90-E023-FE1B-88904AE7E11B}|Assembly-CSharp.csproj|C:\\Users\\kelliott17\\Documents\\GitHub\\NCGameJam2026-TeamC\\assets\\scripts\\narrative\\dialoguetextbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3553CCAA-9D90-E023-FE1B-88904AE7E11B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\narrative\\dialoguetextbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3553CCAA-9D90-E023-FE1B-88904AE7E11B}|Assembly-CSharp.csproj|C:\\Users\\kelliott17\\Documents\\GitHub\\NCGameJam2026-TeamC\\assets\\scripts\\ui\\finalchoiceui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,24 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AudioManager.cs",
-              "DocumentMoniker": "C:\\Users\\kelliott17\\Documents\\GitHub\\NCGameJam2026-TeamC\\Assets\\Managers\\AudioManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Managers\\AudioManager.cs",
-              "ToolTip": "C:\\Users\\kelliott17\\Documents\\GitHub\\NCGameJam2026-TeamC\\Assets\\Managers\\AudioManager.cs",
-              "RelativeToolTip": "Assets\\Managers\\AudioManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-01T18:05:15.989Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "First Person Controller.cs",
               "DocumentMoniker": "C:\\Users\\kelliott17\\Documents\\GitHub\\NCGameJam2026-TeamC\\Assets\\Scripts\\Player\\First Person Controller.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\First Person Controller.cs",
@@ -60,7 +43,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "FinalChoiceUI.cs",
               "DocumentMoniker": "C:\\Users\\kelliott17\\Documents\\GitHub\\NCGameJam2026-TeamC\\Assets\\Scripts\\UI\\FinalChoiceUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\FinalChoiceUI.cs",
@@ -73,20 +56,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "DialogueTextBox.cs",
               "DocumentMoniker": "C:\\Users\\kelliott17\\Documents\\GitHub\\NCGameJam2026-TeamC\\Assets\\Scripts\\Narrative\\DialogueTextBox.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Narrative\\DialogueTextBox.cs",
               "ToolTip": "C:\\Users\\kelliott17\\Documents\\GitHub\\NCGameJam2026-TeamC\\Assets\\Scripts\\Narrative\\DialogueTextBox.cs",
               "RelativeToolTip": "Assets\\Scripts\\Narrative\\DialogueTextBox.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAAAFgAAABtAAAAAAAAAA==",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAAAE0AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-01T13:32:09.401Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "ObjectiveManager.cs",
               "DocumentMoniker": "C:\\Users\\kelliott17\\Documents\\GitHub\\NCGameJam2026-TeamC\\Assets\\Managers\\ObjectiveManager.cs",
               "RelativeDocumentMoniker": "Assets\\Managers\\ObjectiveManager.cs",
