@@ -52,6 +52,7 @@ public class Narrative : MonoBehaviour
         ObjectiveManager.Instance.OnObjectiveChanged -= ChangeAct;
         ObjectiveManager.Instance.OnAllObjectivesComplete -= ObjectivesComplete;
         StartCoroutine(FinalAct());
+        FindAnyObjectByType<FirstPersonController>().rotationLock = true;
     }
 
 
