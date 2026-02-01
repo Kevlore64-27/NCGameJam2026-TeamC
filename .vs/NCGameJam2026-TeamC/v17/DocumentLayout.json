@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\mbocchini1\\Desktop\\jam\\NCGameJam2026-TeamC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3553CCAA-9D90-E023-FE1B-88904AE7E11B}|Assembly-CSharp.csproj|C:\\Users\\mbocchini1\\Desktop\\jam\\NCGameJam2026-TeamC\\assets\\scripts\\player\\first person controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3553CCAA-9D90-E023-FE1B-88904AE7E11B}|Assembly-CSharp.csproj|c:\\users\\mbocchini1\\desktop\\jam\\ncgamejam2026-teamc\\assets\\scripts\\player\\first person controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3553CCAA-9D90-E023-FE1B-88904AE7E11B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\first person controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3553CCAA-9D90-E023-FE1B-88904AE7E11B}|Assembly-CSharp.csproj|c:\\users\\mbocchini1\\desktop\\jam\\ncgamejam2026-teamc\\assets\\scripts\\narrative\\narrative.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3553CCAA-9D90-E023-FE1B-88904AE7E11B}|Assembly-CSharp.csproj|C:\\Users\\mbocchini1\\Desktop\\jam\\NCGameJam2026-TeamC\\assets\\scripts\\narrative\\narrative.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3553CCAA-9D90-E023-FE1B-88904AE7E11B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\narrative\\narrative.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -57,8 +57,8 @@
       "RelativeMoniker": "D:0:0:{3553CCAA-9D90-E023-FE1B-88904AE7E11B}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\2_quest-icewine.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mbocchini1\\Desktop\\jam\\NCGameJam2026-TeamC\\assets\\scripts\\narrative.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\narrative.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mbocchini1\\Desktop\\jam\\NCGameJam2026-TeamC\\Assets\\Scripts\\Narrative.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Narrative.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -80,8 +80,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Narrative\\Narrative.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-01T04:37:22.672Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-01T04:37:22.672Z"
             },
             {
               "$type": "Document",
@@ -187,7 +186,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\First Person Controller.cs",
               "ToolTip": "C:\\Users\\mbocchini1\\Desktop\\jam\\NCGameJam2026-TeamC\\Assets\\Scripts\\Player\\First Person Controller.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\First Person Controller.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAADwvy8AAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAUwJ0AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-31T16:15:56.744Z",
               "EditorCaption": ""
