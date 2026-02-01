@@ -113,37 +113,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2054363418417064812, guid: c9ccd166eedb1a34da6b4f7afff1382d, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3672390897717410517, guid: c9ccd166eedb1a34da6b4f7afff1382d, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4402767316219263343, guid: c9ccd166eedb1a34da6b4f7afff1382d, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5089134081297665704, guid: c9ccd166eedb1a34da6b4f7afff1382d, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6505085957911597093, guid: c9ccd166eedb1a34da6b4f7afff1382d, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6610822143871917449, guid: c9ccd166eedb1a34da6b4f7afff1382d, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7137575029135960427, guid: c9ccd166eedb1a34da6b4f7afff1382d, type: 3}
       propertyPath: m_Name
       value: Candle_Fire
-      objectReference: {fileID: 0}
-    - target: {fileID: 7137575029135960427, guid: c9ccd166eedb1a34da6b4f7afff1382d, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
