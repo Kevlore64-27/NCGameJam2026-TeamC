@@ -160,12 +160,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 522112056111966859}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7f181cd8f2587e041ad3cb40db3bc8e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <ObjectiveId>k__BackingField: Herbs
+  <ObjectiveId>k__BackingField: Magenta Herbs
 --- !u!114 &6730143029345781341
 MonoBehaviour:
   m_ObjectHideFlags: 0

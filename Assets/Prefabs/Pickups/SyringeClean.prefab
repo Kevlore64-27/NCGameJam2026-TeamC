@@ -110,7 +110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f181cd8f2587e041ad3cb40db3bc8e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <ObjectiveId>k__BackingField: Syringe
+  <ObjectiveId>k__BackingField: Clean Syringe
 --- !u!114 &3173148679071777563
 MonoBehaviour:
   m_ObjectHideFlags: 0
