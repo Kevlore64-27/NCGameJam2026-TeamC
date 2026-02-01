@@ -1009,7 +1009,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4273427954152599757, guid: 3baacbc9e68c96e4e9bcf85f2f58fe5c, type: 3}
       propertyPath: hoverLayer.m_Bits
-      value: 264
+      value: 776
       objectReference: {fileID: 0}
     - target: {fileID: 6621988458182875774, guid: 3baacbc9e68c96e4e9bcf85f2f58fe5c, type: 3}
       propertyPath: m_Name
@@ -4332,8 +4332,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Dispaly Text
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: c9cf66e014b379e41a26fc3dacefdcd9, type: 2}
+  m_sharedMaterial: {fileID: 8037619524325552298, guid: c9cf66e014b379e41a26fc3dacefdcd9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
